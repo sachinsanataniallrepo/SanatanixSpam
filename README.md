@@ -13,7 +13,7 @@
 
 <h4 align="center"> 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/shiva_ansh_op"><img src="https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/shiva_ansh_op"><img src="(https://telegra.ph/file/f5b0e7f2bd95153968e87.jpg)" width="400"></a></p>
 
 
 > ⭐️ Thanks to everyone for using THIS STRANGER SPAM BOT, That is the greatest pleasure we have !
@@ -29,7 +29,7 @@
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/itzshukla/STRANGER-SPAM-X)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/oyethomas/spamX)
   
 </details>
 
