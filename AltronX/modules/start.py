@@ -5,14 +5,14 @@ import telethon
 
 PythonButton = [
         [
-        Button.inline("☆ 𝐂σммαиԃ𝐒 ☆", data="help_back")
+        Button.inline("🍃𝐂σммαиԃ𝐒🌱", data="help_back")
         ],
         [
-        Button.url("☆ 𝐂нαииє𝐋 ☆", "https://t.me/mastiwithfriendsx"),
-        Button.url("☆ 𝐒υρρσя𝐓", "https://t.me/mastiwithfriendsx")
+        Button.url("✰𝐂ʜᴀᴛ_𝐆ʀᴘ☻︎", "https://t.me/II_4ST_FIGHTER_ll"),
+        Button.url("♕︎ 𝐒υρρσя𝐓 ♕︎", "https://t.me/I_M_FIGHTER")
         ],
         [
-        Button.url("☆ 𝐑ꫀρ𝐎", "https://t.me/ABOUT_SHIVANSHOP")
+        Button.url("☞︎𝐑ᴇᴘᴏ☜︎", "https://t.me/ll4st_opII")
         ]
         ]
 
@@ -34,7 +34,7 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝐇𝐞𝐲 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥](https://t.me/SHIVANSH39)**\n\n"
+        TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [4sᴛ_𝐎ғғɪᴄɪᴀʟ](https://t.me/II_4ST_FIGHTER_ll)**\n\n"
         TEXT += f"» **𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
         TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
