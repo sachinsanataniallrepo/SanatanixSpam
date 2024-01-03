@@ -29,7 +29,7 @@ async def spam(e):
             if int(g) in ALTRON:
                 await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴀ ʙᴇᴛᴀ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ, parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
                 c = a.first_name
                 username = f"[{c}](tg://user?id={g})"
@@ -47,7 +47,7 @@ async def spam(e):
             if int(g) in ALTRON:
                 await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ, parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
                 c = b.first_name
                 counter = int(mkraid[0])
@@ -125,7 +125,7 @@ async def _(e):
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ 4sᴛ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
-                await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ"", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
