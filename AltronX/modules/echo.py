@@ -28,9 +28,9 @@ async def echo(event):
         if int(user_id) in ALTRON:
             await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) == OWNER_ID:
-            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴀʀᴇ.. ʙᴀᴀᴘ ʙᴀɴɴᴇ ᴋᴀ ᴛʀʏ ᴍᴛ ᴋʀ ᴢʜᴀᴛᴜ", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ...ʟᴏʟ", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
@@ -42,7 +42,7 @@ async def echo(event):
                 await event.reply("» ᴇᴄʜᴏ ᴘʜʟᴇ sᴇ ʟᴀɢᴀ ʜᴜᴀ ʜᴀɪ.. ʜᴇʜᴇʜᴇ !!")
                 return
             addecho(user_id, chat_id)
-            await event.reply("» ᴇᴄʜᴏ ʟᴀɢ ɢʏᴀ! ʜᴀʜᴀʜᴀ!! ✅")
+            await event.reply("» ᴇᴄʜᴏ ʟᴀɢ ɢʏᴀ! ᴀʙ 4sᴛ ɢʜᴜᴍ ᴋᴇ ᴍᴀᴀ ᴄʜᴏᴅᴇɢ ɪsᴋɪ!! ✅")
      else:
           await event.reply(usage)
 
@@ -71,9 +71,9 @@ async def rmecho(event):
             pass
         if is_echo(user_id, chat_id):
             remove_echo(user_id, chat_id)
-            await event.reply("» ᴜғғ ʏʀʀ!! ᴇᴄʜᴏ ʜᴛᴛ ɢʏᴀ ☑️")
+            await event.reply("» ᴜғғ ʏʀʀ!! 4sᴛ ᴋᴇ ᴢʜᴀᴛᴜ ᴇᴄʜᴏ ʜᴛᴛ ɢʏᴀ ☑️")
         else:
-            await event.reply("» ᴇᴄʜᴏ ᴛᴏ ᴋᴀʙᴋᴀ ʜᴀᴛᴛ ɢʏᴀ.. ᴜ ғᴏᴏʟ !!")
+            await event.reply("» ᴇᴄʜᴏ ᴛᴏ ᴋᴀʙᴋᴀ ʜᴀᴛᴛ ɢʏᴀ.. ᴜ ᴢʜᴀᴛ ᴋᴇ ʙᴀᴀʟ !!")
      else:
           await event.reply(usage)
 
