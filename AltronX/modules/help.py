@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ ​𝗦𝘁𝗿𝗮𝗻𝗴𝗲𝗿 𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @SHIVANSH39**"
+PythonHelp = f"★ ​4sᴛ 𝐎ғғɪᴄɪᴀʟ 𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ll4st_MIND_GAMERII**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ ​𝗦𝘁𝗿𝗮𝗻𝗴𝗲𝗿 𝘀𝗽𝗮𝗺 𝙃𝙚
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  " https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
+                                  " https://telegra.ph/file/f5b0e7f2bd95153968e87.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/mastiwithfriendsx"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mastiwithfriendsx")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/I_M_FIGHTER"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_4ST_FIGHTER_ll")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @SHIVANSH39**
+**© @ll4st_MIND_GAMERII**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @SHIVANSH39**
+**© @ll4st_MIND_GAMERII**
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @SHIVANSH39**
+** © @ll4st_MIND_GAMERII**
 """                     
            
            
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/mastiwithfriendsx"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mastiwithfriendsx")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/I_M_FIGHTER"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_4ST_FIGHTER_ll")
            ],
            ],
         )           
    else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ʙᴏʟ... ᴛɢ ᴘᴇ ʀᴇʜɴᴀ ᴛᴏ 4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟɴᴀ ᴘᴀᴅᴇɢᴀ...", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ʙᴏʟ... ᴛɢ ᴘᴇ ʀᴇʜɴᴀ ᴛᴏ 4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟɴᴀ ᴘᴀᴅᴇɢᴀ...", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ʙᴏʟ... ᴛɢ ᴘᴇ ʀᴇʜɴᴀ ᴛᴏ 4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟɴᴀ ᴘᴀᴅᴇɢᴀ...", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("Pahle jaake baap bol 𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇 ko wo tumhe sudo de dega", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ʙᴏʟ... ᴛɢ ᴘᴇ ʀᴇʜɴᴀ ᴛᴏ 4sᴛ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟɴᴀ ᴘᴀᴅᴇɢᴀ...", cache_time=0, alert=True)
