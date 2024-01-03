@@ -23,7 +23,7 @@ async def ping(e):
         altron = await e.reply(f"» 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__𝐾𝐼𝑆𝐾𝐼 𝐺𝐴𝐴𝑁𝐷 𝑀𝐴𝑅𝑁𝐼 𝐵𝑂𝑆𝑆__\n» `{mp} ms`")
+        await altron.edit(f"🍂4sᴛ 𝐑ᴇᴀᴅʏ 𝐎ɴ 𝐂ʜᴜᴅᴀʏɪ 𝐌ᴏᴏᴅ🍃_\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f" ᴏʏᴇᴇ ʀᴜᴋᴊᴀᴀ!! ʙᴏᴛ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
+        await e.reply(f" ᴏʏᴇᴇ ᴢʜᴀᴛᴜ ʀᴜᴋᴊᴀᴀ!! 4sᴛ ʙᴀᴀᴘ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
         try:
             await MK1.disconnect()
         except Exception:
@@ -114,12 +114,12 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except Exception:
-            await ok.edit("» ᴀʙᴇ ᴜsᴇʀ ᴘᴇ ʀᴇᴘʟʏ ᴋᴀʀʀ !!")
+            await ok.edit("» ᴀʙᴇ ᴢʜᴀᴛᴜ ᴜsᴇʀ ᴘᴇ ʀᴇᴘʟʏ ᴋᴀʀʀ !!")
         if len(sudousers) > 0:
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **ɴᴇᴡ ʙᴇᴛᴀ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
+        await ok.edit(f"» **4sᴛ ᴋᴀ ɴᴀʏᴀ ʙᴇᴛᴀ ᴀᴀʏᴀ**: `{target}`\n» `ᴡᴇʟᴄᴏᴍᴇ 4sᴛ ᴋᴇ ʙᴇᴛᴇ..!!`")
         heroku_var[mks] = newsudo   
    
      
