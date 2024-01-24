@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» 4sᴛ 𝐅ᴜᴄᴋ 𝐓ʏᴍ", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"•[ 4ѕт x ѕαиαтαиι тум ]•", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"💘4sᴛ 𝐑𝙴𝙰𝙳𝚈 𝐎𝙽 𝐂𝙷𝚄𝙳𝙰𝚈𝙸 𝐌𝙾𝙾𝙳🍃\n» `{mp} ms`")
+        await altron.edit(f"тєʀα вααρ ѕαиαтαиι αα gαуα\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f" ᴏʏᴇᴇ ᴢʜᴀᴛᴜ ʀᴜᴋᴊᴀᴀ!! 4sᴛ ʙᴀᴀᴘ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
+        await e.reply(f"αвє נнαт кє вααℓ σʀ gαℓι ᴅєиє ᴅєтα иα ʀєвσσт куυ мαʀα мєкσ")
         try:
             await MK1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
+        ok = await event.reply(f"☆ мєʀα єк σʀ иєω вєтα α∂∂ нσ gαуα ☆")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
@@ -114,12 +114,12 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except Exception:
-            await ok.edit("» ᴀʙᴇ ᴢʜᴀᴛᴜ ᴜsᴇʀ ᴘᴇ ʀᴇᴘʟʏ ᴋᴀʀʀ !!")
+            await ok.edit("αвє נнαт кє вααℓ υραʀ ѕє ʀєρℓу ∂є ʀαнα нαι вααρ кσ")
         if len(sudousers) > 0:
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **4sᴛ 𝙺𝙰 𝙽𝙰𝚈𝙰 𝙱𝙴𝚃𝙰 𝙰𝙰𝚈𝙰**: `{target}`\n» `💕𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙱𝙴𝚃𝙴 𝚃𝙾 4𝚂𝚃..💞!!`")
+        await ok.edit(f"♥︎ σує нσує мєʀα иєω вєιтα ♥︎: `{target}`\n» `💕𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙱𝙴𝚃𝙴 𝚃𝙾 4𝚂𝚃..💞!!`")
         heroku_var[mks] = newsudo   
    
      
