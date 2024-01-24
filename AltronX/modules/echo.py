@@ -26,11 +26,11 @@ async def echo(event):
         reply_msg = await event.get_reply_message()
         user_id = reply_msg.sender_id
         if int(user_id) in ALTRON:
-            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("αвє נнαт кє вααℓ ує тєʀα внι вααρ нαι :: мтℓв 4ѕт вαℓα нαι", parse_mode=None, link_preview=None)
         elif int(user_id) == OWNER_ID:
-            await event.reply("» ᴀʀᴇ.. ʙᴀᴀᴘ ʙᴀɴɴᴇ ᴋᴀ ᴛʀʏ ᴍᴛ ᴋʀ ᴢʜᴀᴛᴜ", parse_mode=None, link_preview=None)
+            await event.reply("αвє ѕυи ує тєʀα внι вααρ нαι", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("» ᴀʙᴇ.. ʏᴇ ᴛᴏ 4sᴛ ᴋᴇ ᴢʜᴀᴛ ᴋᴀ ʙᴀᴀʟ ʜᴀɪ...ʟᴏʟ", parse_mode=None, link_preview=None)
+            await event.reply("ѕυи иα внαι ℓαgтα нαι ує 4ѕт вαℓα нαι 🥰🥰", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
@@ -39,10 +39,10 @@ async def echo(event):
             except BaseException:
                 pass
             if is_echo(user_id, chat_id):
-                await event.reply("» ᴇᴄʜᴏ ᴘʜʟᴇ sᴇ ʟᴀɢᴀ ʜᴜᴀ ʜᴀɪ.. ʜᴇʜᴇʜᴇ !!")
+                await event.reply("єᴄнσ ραнℓє ѕє нι σи нαι ʀє мєʀє внαι")
                 return
             addecho(user_id, chat_id)
-            await event.reply("» ᴇᴄʜᴏ ʟᴀɢ ɢʏᴀ! ᴀʙ 4sᴛ ɢʜᴜᴍ ᴋᴇ ᴍᴀᴀ ᴄʜᴏᴅᴇɢ ɪsᴋɪ!! ✅")
+            await event.reply("тєʀα єᴄнσ ℓαg gαуα נα ¢нσ∂ ∂є 😁😆")
      else:
           await event.reply(usage)
 
@@ -71,9 +71,9 @@ async def rmecho(event):
             pass
         if is_echo(user_id, chat_id):
             remove_echo(user_id, chat_id)
-            await event.reply("» ᴜғғ ʏʀʀ!! 4sᴛ ᴋᴇ ᴢʜᴀᴛᴜ ᴇᴄʜᴏ ʜᴛᴛ ɢʏᴀ ☑️")
+            await event.reply("נα ʀє נнαтυ тєʀα єᴄнσ σff нσ gαуα")
         else:
-            await event.reply("» ᴇᴄʜᴏ ᴛᴏ ᴋᴀʙᴋᴀ ʜᴀᴛᴛ ɢʏᴀ.. ᴜ ᴢʜᴀᴛ ᴋᴇ ʙᴀᴀʟ !!")
+            await event.reply("αвє נнαт кє вααℓ єᴄнσ вαнυт ραнℓє нι нαт gαуα тнα..!!")
      else:
           await event.reply(usage)
 
