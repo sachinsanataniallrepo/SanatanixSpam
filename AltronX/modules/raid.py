@@ -45,9 +45,9 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in ALTRON:
-                await e.reply("» αвє ѕαиαтαиι кα вєιуα нαι ує тσ ʀє 🤣😂", parse_mode=None, link_preview=None)
+                await e.reply("» αвє ѕαиαтαиι кα вєιтα нαι ує тσ ʀє 🤣😂", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» αвє ѕαиαтαиι кα вєιуα нαι ує тσ ʀє 🤣😂", parse_mode=None, link_preview=None)
+                await e.reply("» αвє ѕαиαтαиι кα вєιтα нαι ує тσ ʀє 🤣😂", parse_mode=None, link_preview=None)
             else:
                 c = b.first_name
                 counter = int(mkraid[0])
