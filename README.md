@@ -11,7 +11,7 @@
 
 <h1 align="center"><b> 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠</b></h1>
 
-<h4 align="center"> 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
+<h4 align="center"> 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 • 𝗠𝗥 𝗦𝗔𝗖𝗛𝗜𝗡 </h4>
 
 <p align="center"><a href="https://t.me/shiva_ansh_op"><img src="https://telegra.ph/file/204854c3a0cb8cfeae36c.jpg" width="400"></a></p>
 
