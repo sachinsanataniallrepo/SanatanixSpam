@@ -41,4 +41,4 @@ async def start(event):
                 event.chat_id,
                 "https://telegra.ph/file/204854c3a0cb8cfeae36c.jpg",
                 caption=TEXT, 
-                buttons=PythonButton)￼Enter
+                buttons=PythonButton)Enter
